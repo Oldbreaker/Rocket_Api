@@ -44,15 +44,15 @@ Decide también usar jwt para poder la utenticación de las clases
   ```
 
 - localhost:8000/users/get/<int:pk> Obtener un usuario por id:
-  - Requiere Authorization Bearer token = token generado por localhost:8000/api/token/
+   - Requiere Authorization Bearer token = token generado por localhost:8000/api/token/
 
--localhost:8000/users/delete/<int:pk> Eliminar un usuario por id:
+- localhost:8000/users/delete/<int:pk> Eliminar un usuario por id:
 
-- Requiere Authorization Bearer token = token generado por localhost:8000/api/token/
+   - Requiere Authorization Bearer token = token generado por localhost:8000/api/token/
 
--localhost:8000/users/update/<int:pk> Modificar un usuario por id:
+- localhost:8000/users/update/<int:pk> Modificar un usuario por id:
 
-- Requiere Authorization Bearer token = token generado por localhost:8000/api/token/
+   - Requiere Authorization Bearer token = token generado por localhost:8000/api/token/
 
 ```javascript
 {
