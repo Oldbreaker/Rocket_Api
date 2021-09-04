@@ -10,7 +10,7 @@ Todos las vistas requieren que se este autenticado como un adminUser
 
 - Crear un superuser para utilizarlo como usuario. # python manage.py createsuperuser
 
-Decide también usar jwt para poder la utenticación de las clases
+Decidi también usar jwt para poder la utenticación de las clases
 
 ## instalar
 
